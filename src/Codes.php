@@ -2,16 +2,13 @@
 
 namespace Lahiru\ExchangeRatesLk;
 
-
 class Codes
 {
-
     private $codes;
-
 
     public function __construct()
     {
-        $this->codes = array(
+        $this->codes = [
             'AED' => '&#1583;.&#1573;', // ?
             'AFN' => '&#65;&#102;',
             'ALL' => '&#76;&#101;&#107;',
@@ -171,13 +168,13 @@ class Codes
             'ZAR' => '&#82;',
             'ZMK' => '&#90;&#75;', // ?
             'ZWL' => '&#90;&#36;',
-        );
+        ];
     }
-
 
     public function getSymbol($shortCode)
     {
         $key = array_key_exists($shortCode, $this->codes);
+
         return $key ? html_entity_decode($this->codes[$shortCode]) : "";
     }
 }

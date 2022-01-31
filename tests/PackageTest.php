@@ -2,17 +2,12 @@
 
 use Lahiru\ExchangeRatesLk\Codes;
 use Lahiru\ExchangeRatesLk\Providers\Cbsl;
-use Lahiru\ExchangeRatesLk\Providers\Seylan;
 use Lahiru\ExchangeRatesLk\Tests\TestCase;
-use League\CommonMark\Extension\CommonMark\Node\Inline\Code;
 
 class PackageTest extends TestCase
 {
-
-
     public function test_helper_is_works()
     {
-
         $this->assertGreaterThan(0, lkrTo(8560, 'AUD'));
     }
 
@@ -21,7 +16,6 @@ class PackageTest extends TestCase
         $cd = new Codes();
         $this->assertEquals("$", $cd->getSymbol('USD'));
     }
-
 
     public function test_auto_weekend_skipping_is_work()
     {

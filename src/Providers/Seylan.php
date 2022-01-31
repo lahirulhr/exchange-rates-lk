@@ -20,7 +20,7 @@ class Seylan
             $values = [
                 "name" => $tds->eq(0)->text(),
                 "code" => $tds->eq(1)->text(),
-                ""
+                "",
             ];
 
             return $values;
