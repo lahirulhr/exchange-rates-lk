@@ -1,10 +1,10 @@
 <?php
 
-namespace Lahirulhr\ExchangeRatesLk;
+namespace Lahiru\ExchangeRatesLk;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lahirulhr\ExchangeRatesLk\Commands\ExchangeRatesLkCommand;
+use Lahiru\ExchangeRatesLk\Commands\ExchangeRatesLkCommand;
 
 class ExchangeRatesLkServiceProvider extends PackageServiceProvider
 {
@@ -18,8 +18,8 @@ class ExchangeRatesLkServiceProvider extends PackageServiceProvider
         $package
             ->name('exchange-rates-lk')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_exchange-rates-lk_table')
-            ->hasCommand(ExchangeRatesLkCommand::class);
+            ->hasViews();
+
+
     }
 }

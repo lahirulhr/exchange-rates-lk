@@ -1,11 +1,11 @@
 <?php
 
-namespace Lahirulhr\ExchangeRatesLk;
+namespace Lahiru\ExchangeRatesLk;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Lahirulhr\ExchangeRatesLk\ExchangeRatesLk
+ * @see \Lahiru\ExchangeRatesLk\ExchangeRatesLk
  */
 class ExchangeRatesLkFacade extends Facade
 {

@@ -1,5 +1,5 @@
 <?php
-// config for Lahirulhr/ExchangeRatesLk
+// config for Lahiru/ExchangeRatesLk
 return [
 
 ];

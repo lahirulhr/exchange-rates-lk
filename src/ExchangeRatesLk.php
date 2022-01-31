@@ -1,6 +1,6 @@
 <?php
 
-namespace Lahirulhr\ExchangeRatesLk;
+namespace Lahiru\ExchangeRatesLk;
 
 class ExchangeRatesLk
 {
