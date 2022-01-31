@@ -2,9 +2,9 @@
 
 namespace Lahirulhr\ExchangeRatesLk;
 
+use Lahirulhr\ExchangeRatesLk\Commands\ExchangeRatesLkCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lahirulhr\ExchangeRatesLk\Commands\ExchangeRatesLkCommand;
 
 class ExchangeRatesLkServiceProvider extends PackageServiceProvider
 {
